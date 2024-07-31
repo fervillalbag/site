@@ -52,7 +52,7 @@ export default function App() {
           </button>
         </div>
 
-        <p className="mt-3 text-[#888] dark:text-[#adb5bd]">
+        <p className="mt-3 text-[#444] dark:text-[#adb5bd]">
           Soy{" "}
           <i className="text-[#333] dark:text-[#eae0d5] font-semibold">
             Frontend Developer
@@ -64,7 +64,7 @@ export default function App() {
         </p>
       </header>
 
-      <section className="my-5">
+      <section className="mt-10">
         <img
           src={`/site/banner${
             currentTheme === "dark" ? ".jpg" : "-light.png"
@@ -74,7 +74,7 @@ export default function App() {
         />
       </section>
 
-      <section className="my-5">
+      <section className="my-16 mt-10">
         <h3 className="text-xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
           Trabajos
         </h3>
@@ -84,7 +84,7 @@ export default function App() {
             <h4 className="font-semibold text-lg text-[#333] dark:text-[#eae0d5]">
               Wantit
             </h4>
-            <p className="mt-2 text-[#888] dark:text-[#adb5bd]">
+            <p className="mt-2 text-[#444] dark:text-[#adb5bd]">
               Wantit es un proyecto que busca conectar a sus usuarios
               con nuevos locales o servicios que necesitan.
             </p>
@@ -92,7 +92,7 @@ export default function App() {
               <h3 className="text-[#333] dark:text-[#eae0d5] font-semibold">
                 Tecnologias:
               </h3>
-              <p className="text-[#888] dark:text-[#adb5bd]">
+              <p className="text-[#444] dark:text-[#adb5bd]">
                 React, TailwindCSS, Typescript, NestJS, MongoDB,
                 Prisma, Cloudinary
               </p>
@@ -108,7 +108,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className="my-5">
+      <section className="my-16">
         <h3 className="text-xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
           Open Source
         </h3>
@@ -118,7 +118,7 @@ export default function App() {
             <h4 className="font-semibold text-lg text-[#333] dark:text-[#eae0d5]">
               SUIC.dev
             </h4>
-            <p className="mt-2 text-[#888] dark:text-[#adb5bd]">
+            <p className="mt-2 text-[#444] dark:text-[#adb5bd]">
               Esta biblioteca de componentes ofrece un calendario
               simple y minimalista, diseñado para proporcionar
               elementos de interfaz de usuario reutilizables y
@@ -128,7 +128,7 @@ export default function App() {
               <h3 className="text-[#333] dark:text-[#eae0d5] font-semibold">
                 Tecnologias:
               </h3>
-              <p className="text-[#888] dark:text-[#adb5bd]">
+              <p className="text-[#444] dark:text-[#adb5bd]">
                 React, TailwindCSS, Typescript
               </p>
             </div>
@@ -144,7 +144,7 @@ export default function App() {
             <h4 className="font-semibold text-lg text-[#333] dark:text-[#eae0d5]">
               Delpi
             </h4>
-            <p className="mt-2 text-[#888] dark:text-[#adb5bd]">
+            <p className="mt-2 text-[#444] dark:text-[#adb5bd]">
               API centralizada y estandarizada que ofrece información
               sobre los departamentos, ciudades y barrios de Paraguay,
               diseñada para ser utilizada por otros desarrolladores.
@@ -153,7 +153,7 @@ export default function App() {
               <h3 className="text-[#333] dark:text-[#eae0d5] font-semibold">
                 Tecnologias:
               </h3>
-              <p className="text-[#888] dark:text-[#adb5bd]">
+              <p className="text-[#444] dark:text-[#adb5bd]">
                 React, TailwindCSS, Typescript
               </p>
             </div>
@@ -168,7 +168,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className="my-5">
+      <section className="my-16">
         <h3 className="text-xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
           Otros
         </h3>
@@ -176,7 +176,7 @@ export default function App() {
         <div className="mt-3 space-y-4">
           <article>
             {/* <h4 className="font-semibold text-lg text-[#333] dark:text-[#eae0d5]">SUIC.dev</h4> */}
-            <p className="mt-2 text-[#888] dark:text-[#adb5bd]">
+            <p className="mt-2 text-[#444] dark:text-[#adb5bd]">
               Obra abstracta de un artista desarrollada con React y
               TailwindCSS.
             </p>
@@ -191,7 +191,7 @@ export default function App() {
               <h3 className="text-[#333] dark:text-[#eae0d5] font-semibold">
                 Tecnologias:
               </h3>
-              <p className="text-[#888] dark:text-[#adb5bd]">
+              <p className="text-[#444] dark:text-[#adb5bd]">
                 CSS, TailwindCSS
               </p>
             </div>
