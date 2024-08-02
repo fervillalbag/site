@@ -113,7 +113,7 @@ export default function App() {
           Open Source
         </h3>
 
-        <div className="mt-3 space-y-4">
+        <div className="mt-3 space-y-6">
           <article>
             <h4 className="font-semibold text-lg text-[#333] dark:text-[#eae0d5]">
               SUIC.dev
