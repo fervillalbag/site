@@ -1,5 +1,5 @@
-import { MoonStar, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
+import { MoonStar, Sun } from "lucide-react";
 
 export default function App() {
   const [currentTheme, setCurrentTheme] = useState<string>("");
@@ -64,7 +64,7 @@ export default function App() {
         </p>
       </header>
 
-      <section className="mt-10">
+      <section className="my-16">
         <img
           src={`/site/banner${
             currentTheme === "dark" ? ".jpg" : "-light.png"
@@ -74,8 +74,8 @@ export default function App() {
         />
       </section>
 
-      <section className="my-16 mt-10">
-        <h3 className="text-xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
+      <section className="my-16">
+        <h3 className="text-2xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
           Trabajos
         </h3>
 
@@ -98,18 +98,18 @@ export default function App() {
               </p>
             </div>
             <a
-              className="mt-1 block text-[#333] dark:text-[#eae0d5] font-semibold"
+              className="mt-1 border dark:border-[#eae0d5] border-[#333] px-5 py-1.5 rounded-md inline-block text-[#333] dark:text-[#eae0d5] font-semibold"
               href="https://wantitpy.com"
               target="_blank"
             >
-              Ir al sitio
+              Ver sitio
             </a>
           </article>
         </div>
       </section>
 
       <section className="my-16">
-        <h3 className="text-xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
+        <h3 className="text-2xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
           Open Source
         </h3>
 
@@ -133,11 +133,11 @@ export default function App() {
               </p>
             </div>
             <a
-              className="mt-1 block text-[#333] dark:text-[#eae0d5] font-semibold"
+              className="mt-1 border dark:border-[#eae0d5] border-[#333] px-5 py-1.5 rounded-md inline-block text-[#333] dark:text-[#eae0d5] font-semibold"
               href="https://www.npmjs.com/package/suic.dev"
               target="_blank"
             >
-              Ir al sitio
+              Ver sitio
             </a>
           </article>
           <article>
@@ -158,18 +158,18 @@ export default function App() {
               </p>
             </div>
             <a
-              className="mt-1 block text-[#333] dark:text-[#eae0d5] font-semibold"
+              className="mt-1 border dark:border-[#eae0d5] border-[#333] px-5 py-1.5 rounded-md inline-block text-[#333] dark:text-[#eae0d5] font-semibold"
               href="https://delpi.dev/"
               target="_blank"
             >
-              Ir al sitio
+              Ver sitio
             </a>
           </article>
         </div>
       </section>
 
       <section className="my-16">
-        <h3 className="text-xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
+        <h3 className="text-2xl font-semibold text-[#333] dark:text-[#eae0d5] border-b dark:border-neutral-500 border-neutral-700 pb-2.5">
           Otros
         </h3>
 
@@ -195,24 +195,41 @@ export default function App() {
                 CSS, TailwindCSS
               </p>
             </div>
-            <div>
+            <div className="flex items-center gap-x-3">
               <a
-                className="mt-1 block text-[#333] dark:text-[#eae0d5] font-semibold"
+                className="inline-block px-5 py-1.5 rounded-md border border-[#333] dark:border-[#eae0d5] text-[#333] dark:text-[#eae0d5] font-semibold"
                 href="https://drawing-with-code.vercel.app/"
                 target="_blank"
               >
-                Ir al sitio
+                Ver sitio
               </a>
               <a
-                className="mt-2 block text-[#333] dark:text-[#eae0d5] font-semibold"
+                className="dark:bg-white bg-[#333] inline-block px-5 py-1.5 rounded-md border border-[#333] dark:border-[#eae0d5] text-white dark:text-[#333] font-semibold"
                 href="https://github.com/fervillalbag/drawing-with-code"
                 target="_blank"
               >
-                Ir al github
+                Ver repositorio
               </a>
             </div>
           </article>
         </div>
+      </section>
+
+      <section className="my-16">
+        <img
+          src={`/site/github-${
+            currentTheme === "dark" ? "light" : "dark"
+          }.png`}
+          alt=""
+          className="h-10 object-contain"
+        />
+        <a
+          className="mt-3 border dark:border-[#eae0d5] border-[#333] px-5 py-1.5 rounded-md inline-block text-[#333] dark:text-[#eae0d5] font-semibold"
+          href="https://github.com/fervillalbag"
+          target="_blank"
+        >
+          Ir al perfil de Github
+        </a>
       </section>
     </div>
   );
