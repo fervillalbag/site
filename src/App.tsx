@@ -205,7 +205,7 @@ export default function App() {
               </a>
               <a
                 className="dark:bg-white bg-[#333] inline-block px-5 py-1.5 rounded-md border border-[#333] dark:border-[#eae0d5] text-white dark:text-[#333] font-semibold"
-                href="https://github.com/fervillalbag/drawing-with-code"
+                href="https://github.com/falcondpr/drawing-with-code"
                 target="_blank"
               >
                 Ver repositorio
@@ -225,7 +225,7 @@ export default function App() {
         />
         <a
           className="mt-3 border dark:border-[#eae0d5] border-[#333] px-5 py-1.5 rounded-md inline-block text-[#333] dark:text-[#eae0d5] font-semibold"
-          href="https://github.com/fervillalbag"
+          href="https://github.com/falcondpr"
           target="_blank"
         >
           Ir al perfil de Github
